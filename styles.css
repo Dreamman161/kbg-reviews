@@ -1,1 +1,42 @@
-body{background:#eee;font-family:monospace;} .comment{background:#fff;border:1px solid #ccc;padding:8px;margin:8px 0;}
+body {
+    background-color: #eeeeee;
+    font-family: "Courier New", monospace;
+    margin: 20px;
+}
+
+h1 {
+    color: #222;
+    font-size: 24px;
+}
+
+.warning {
+    padding: 10px;
+    background: #fff3cd;
+    border: 1px solid #d5c292;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 90%;
+    height: 80px;
+    font-family: monospace;
+}
+
+.comment {
+    background: #ffffff;
+    border: 1px solid #bbb;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.reply-btn {
+    font-size: 12px;
+    cursor: pointer;
+    color: #0066cc;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.reply-box {
+    margin-left: 20px;
+}
